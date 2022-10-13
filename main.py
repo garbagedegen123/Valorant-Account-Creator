@@ -167,41 +167,6 @@ class Valorant:
                         continue
                 else:
                     print(f'{bcolors.RED}[-]{bcolors.RESET}{bcolors.CYAN} Failed to Create Account {bcolors.RESET}')
-
-
-
-
-
-
-                #print(f'{bcolors.GREEN}[+]{bcolors.RESET}{bcolors.CYAN} Attempting to Log into Account: {username}:{password} {bcolors.RESET}')
-                #client.get('https://auth.riotgames.com/api/v1/authorization')
-                #response=client.put('https://auth.riotgames.com/api/v1/authorization', json={"type":"auth","username":{username},"password":{password},"remember":False,"language":"en_US"})
-                #print(response.text)
-                #if response.status_code==200:
-                #    print(f'{bcolors.RED}[+]{bcolors.RESET}{bcolors.GREEN} Logged into Account: {username}:{password} {bcolors.RESET}')
-                #    game_name=''.join(random.choices(string.digits, k=3))
-                #    response=httpx.post('https://account.riotgames.com/api/riot-id?email_locale=en_US', headers=client.headers,cookies=client.cookies, json={"game_name":f"clipdaddy{game_name}","tag_line":"3131"})
-                #    if response.status_code==200:
-                #        print(f'{bcolors.RED}[+]{bcolors.RESET}{bcolors.GREEN} Created Riot ID: clipdaddy{game_name} | {username}:{password} {bcolors.RESET}')
-                #else:
-                #    print('Failed to log into account') 
-    
-                #response=client.post('https://auth.riotgames.com/api/v1/signup', json={
-                #    "token": f"{self.token}",
-                #    "locale": "it"
-                #})
-                #print(response.text)
-                #if response.status_code in [204, 200]:
-                #    print(f'{bcolors.GREEN}[+]{bcolors.RESET} Account Created: {self.username}:{self.password} | Token: {self.token[:20]} {bcolors.RESET}')
-                #    with open('output/accounts.txt', 'a') as f:
-                #        f.write(f'{self.username}:{self.password}\n')
-                #    with open('output/tokens.txt', 'a') as f:
-                #        f.write(f'{self.token}\n')
-                #    with open('output/accounts_full.txt', 'a') as f:
-                #        f.write(f'{self.email}:{self.password}:{self.token}\n')
-                #else:
-                #    print(f'{bcolors.RED}[-] Failed to Create Account')
-    
             except:
                 pass
     
