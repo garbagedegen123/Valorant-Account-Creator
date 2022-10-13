@@ -56,7 +56,7 @@ class Valorant:
                 "nocache": True,
                 "websiteURL":"https://auth.riotgames.com/login#client_id=play-valorant-web-prod&nonce=NzcsMTA2LDEwMCwx&prompt=signup&redirect_uri=https%3A%2F%2Fplayvalorant.com%2Fopt_in%2F%3Fredirect%3D%2Fdownload%2F&response_type=token%20id_token&scope=account%20openid&state=c2lnbnVw&ui_locales=it",
                 "websiteKey":"a010c060-9eb5-498c-a7b9-9204c881f9dc",
-                "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" if str(self.config["useragent"])=="" else str(self.config["useragent"]) #change this to ur useragent for better results
+                "userAgent":"Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" if str(self.config["useragent"])=="" else str(self.config["useragent"]) #change this to ur useragent for better results
                             }
         }
         key = None
