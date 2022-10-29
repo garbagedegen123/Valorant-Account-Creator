@@ -19,11 +19,5 @@ The first and only Valorant Account creator on Github 💃
 * Bypassing Riot "Security"
 * Automatic Captcha Solving
 
-# Custom Work
-* I do custom work - Custom tools/Software | Contact me on Discord or Telegram
-
-# Contact
-* Telegram: @lilclip
-* Discord: clipssender#2940 | https://discord.gg/clipssender
-* Twitter: @clipssender
-* Email: contact@clipssender.com
+# To Do ✓
+* Automatic email verification
